@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML Forms</title>
+</head>
+<body>
+<!--  Use GET, not POST-->
+  <form method="GET">
+    <label>First Name: <input type="text" name="firstname"></label><br>
+    <label>Last Name: <input type="text" name="lastname"></label><br>
+    <label>Email: <input type="email" name="email" required></label><br>
+    <label>Password: <input type="password" name="password" minlength="5"></label><br>
+    <label>Birthday: <input type="date" name="birthday"></label><br>
+    Gender:<br>
+    <label><input type="radio" name="gender" value="Male">Male</label><br>
+    <label><input type="radio" name="gender" value="Female">Female</label><br>
+    <label><input type="radio" name="gender" value="Other">Other</label><br>
+    Pets:<br>
+    <label><input type="checkbox" name="cat">Cat</label><br>
+    <label><input type="checkbox" name="dog">Dog</label><br>
+    <label> Cars:<br>
+      <select name="cars">
+        <option value="Volvo">Volvo</option>
+        <option value="Audi">Audi</option>
+      </select>
+    </label><br>
+    <input type="submit" value="Register!">
+    <input type="reset">
+  </form>
+</body>
+</html>
