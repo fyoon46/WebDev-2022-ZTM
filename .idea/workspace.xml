@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0f0b4ce-45e9-4a60-af45-1001d0c851ab" name="Changes" comment="Create Repository" />
+    <list default="true" id="c0f0b4ce-45e9-4a60-af45-1001d0c851ab" name="Changes" comment="Create Repository">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,7 +80,7 @@
       <workItem from="1665580248838" duration="619000" />
       <workItem from="1665664496917" duration="198000" />
       <workItem from="1666787933059" duration="9565000" />
-      <workItem from="1666858837173" duration="729000" />
+      <workItem from="1666858837173" duration="1132000" />
     </task>
     <task id="LOCAL-00001" summary="Create Repository">
       <created>1666858936116</created>
