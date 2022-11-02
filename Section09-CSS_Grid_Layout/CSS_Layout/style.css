@@ -1,5 +1,6 @@
 body {
     margin: auto 0;
+    font-family: Arial, serif;
 }
 
 .zone {
@@ -22,6 +23,12 @@ body {
 }
 
 /*NAV*/
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 .main-nav {
     display: flex;
     list-style: none;
@@ -57,6 +64,10 @@ a {
     height: 50vh;
 }
 
+.cover {
+    width: 30rem;
+}
+
 /*GRID*/
 .grid-wrapper {
     display: grid;
@@ -72,6 +83,13 @@ a {
     background-color: #444;
     padding: 130px;
     margin: 20px;
+}
+
+.box:hover {
+    -webkit-transform: rotate(-7deg);
+    -moz-transform: rotate(-7deg);
+    -o-transform: rotate(-7deg);
+    transform: rotate(-7deg);
 }
 
 /*FOOTER*/
