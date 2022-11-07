@@ -16,6 +16,7 @@ header {
 /* INPUT */
 .add-task {
     position: relative;
+    margin-bottom: 0.2em;
 }
 
 label, #user-input {
